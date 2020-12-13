@@ -13,7 +13,7 @@ const Header = () => {
 						<Navbar.Brand to='/'>E-Store</Navbar.Brand>
 					</LinkContainer>
 					<Nav className='ml-auto'>
-						<Nav.Link to='/cart'>
+						<Nav.Link href='/cart'>
 							<i className='fas fa-shopping-cart mr-1' />
 							Cart
 						</Nav.Link>
